@@ -8,12 +8,12 @@ subtitle: ''
 description: ''
 keywords:
 author: John Doe
-language: en
+language: zh-tw
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://hsianghexo.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -93,12 +93,12 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/hsianghexo/hsianghexo.github.io.git # https://github.com/[你的 GitHub 帳號]/[你的 GitHub 帳號].github.io.git
+  repo: https://github.com/jc-eng/jc-eng.github.io.git # https://github.com/[你的 GitHub 帳號]/[你的 GitHub 帳號].github.io.git
   branch: master # 在這邊我是使用 mster 當作主要分支
   message: 'ithelpt'
