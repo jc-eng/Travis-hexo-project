@@ -21,6 +21,8 @@ jobs:
           echo "${{secrets.HEXO}}" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           ssh-keyscan github.com >> ~/.ssh/known_hosts
+          git config --global user.name "je-eng"
+          git config --global user.email "hsiang0313tw@gmail.com"
     - name: A)npm install
       run: |
         npm install
