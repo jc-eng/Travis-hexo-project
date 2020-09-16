@@ -23,5 +23,5 @@ script:
   - hexo generate
 ## deploy 相關設置
 after_success:
-  - sed -i'' "/^ *repo/s~github\.com~${GITHUB_TOKEN}@github.com~" _config.yml
+  - sed -i'' "/^ *repo/s~github\.com~${GITHUBHEXO_TOKEN}@github.com~" _config.yml
   - hexo deploy
